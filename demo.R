@@ -7,7 +7,7 @@ head(mtcars)
 select(mtcars,mpg, cyl, hp)
 summarise(mtcars, mean(wt))
 
-mtcars <- mtcars %>% 
+mtcars <- mtcars%>% 
 mutate(model = rownames(mtcars))  
 View(mtcars)
 
